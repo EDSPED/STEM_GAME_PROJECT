@@ -14,15 +14,19 @@ void draw() {
   if (page==1) {
     title();
   }
-
 }
 
 
 
-void keyPressed(){
+void keyPressed() {
   if (keyPressed) {
     if (key == '2') {
       page=1;
     }
+  }
+}
+void mousePressed() {
+  if (page==0 && mouseX>100 && mouseX<250 && mouseY>150 && mouseY<200) {
+    page=1;
   }
 }
