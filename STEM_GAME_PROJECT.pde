@@ -24,6 +24,9 @@ void draw() {
   if (page==3) {
     companionchoice();
   }
+  if (page==4) {
+    s1Prelude();
+  }
 }
 
 
