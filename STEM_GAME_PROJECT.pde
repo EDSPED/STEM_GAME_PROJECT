@@ -13,6 +13,12 @@ void draw() {
   }
   if (page==1) {
   }
+
+}
+
+
+
+void keyPressed(){
   if (keyPressed) {
     if (key == '2') {
       page=1;
