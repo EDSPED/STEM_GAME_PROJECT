@@ -22,7 +22,7 @@ void draw() {
     createcharacter();
   }
   if (page==3) {
-    companionchoice();
+    companionchoice(companionvariation);
   }
   if (page==4) {
     s1Prelude();
@@ -60,7 +60,22 @@ void mousePressed() {
   if (page==2 && dist(mouseX, mouseY, bx4, by4)<40) {
     page=3;
   }
-  if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100){
-  page=4;
+  if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
+    page=4;
+  }
+  if (page==3 && mouseX>bx5+30&&mouseX<bx5+30+20 && mouseY>by5-30 && mouseY<by5-30+60) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+20 && mouseX<bx5+20+10 && mouseY>by5-20 && mouseY<by5-20+40) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+15 && mouseX<bx5+15+5 && mouseY>by5-15 && mouseY<by5-15+30) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+12.5 && mouseX<bx5+12.5+2.5 && mouseY>by5-12.5 && mouseY<by5-12.5+25) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+2.5 && mouseX<bx5+2.5+10 && mouseY>by5-5 && mouseY<by5-5+10) {
+    companionvariation=2;
   }
 }

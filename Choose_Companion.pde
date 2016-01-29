@@ -8,14 +8,20 @@ int compx1=350;
 int compy1=260;
 int bx8=200;
 int by8=600;
-void companionchoice() {
+int companionvariation=1;
+void companionchoice(int q) {
   background(#FFFFFF);
   fill(0);
   rect(550, 500, 200, 150);
   triangle(bx5, by5, bx5+50, by5-50, bx5+50, by5+50);
   triangle(bx6, by6, bx6, by6+100, bx6+50, by6+50);
   rect(bx7, by7, 150, 100);
-  rect(compx1, compy1, 80, 80);
+  if (q==1) {
+    rect(compx1, compy1, 80, 80);
+  }
+  if (q==2) {
+    ellipse(compx1+40, compy1+40, 80, 80);
+  }
   fill(#FF0000);
   rect(bx5+30, by5-30, 20, 60);
   rect(bx5+20, by5-20, 10, 40);
