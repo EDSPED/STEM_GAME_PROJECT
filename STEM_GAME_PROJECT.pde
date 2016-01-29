@@ -1,5 +1,8 @@
 int page=0;
-
+int bx=100; // menu buttons
+int by=500;
+int bx1;
+int by1;
 void setup() {
   size(800, 800);
   frameRate(30);
@@ -26,7 +29,7 @@ void keyPressed() {
   }
 }
 void mousePressed() {
-  if (page==0 && mouseX>100 && mouseX<250 && mouseY>150 && mouseY<200) {
+  if (page==0 && mouseX>bx && mouseX<bx+150 && mouseY>by && mouseY<by+50) {
     page=1;
   }
 }
