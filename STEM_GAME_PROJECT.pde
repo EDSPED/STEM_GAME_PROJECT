@@ -96,4 +96,11 @@ void mousePressed() {
   if (page==3 && mouseX>bx6+37.5 && mouseX<bx6+37.5+10 && mouseY>by6-5 && mouseY<by6-5+10) {
     companionvariation=3;
   }
+
+  if (page==3 && mouseX>bx6 && mouseX<bx6+10 && mouseY>by6-40 && mouseY<by6-40+10) {
+    companionvariation=3;
+  }
+  if (page==3 && mouseX>bx6 && mouseX<bx6+10 && mouseY>by6+30 && mouseY<by6+30+10) {
+    companionvariation=3;
+  }
 }
