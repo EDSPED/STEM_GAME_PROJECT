@@ -33,4 +33,12 @@ void mousePressed() {
   if (page==0 && mouseX>bx && mouseX<bx+150 && mouseY>by && mouseY<by+50) {
     page=1;
   }
+  
+  if (page==1 && mouseX>bx2 && mouseX<bx2+150 && mouseY>by2 && mouseY<by2+100) {
+    page=2;
+  }
+  
+  
+  
+  
 }

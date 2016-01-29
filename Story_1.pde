@@ -9,5 +9,6 @@ strokeWeight(3);
 fill(255);
 rect(bx2,by2,150,100);
 rect(bx3,by3,150,100);
-
+textSize(100);
+text("TITLE",250,200);
 }
