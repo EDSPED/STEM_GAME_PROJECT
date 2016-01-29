@@ -1,5 +1,24 @@
 int bx4=700;
 int by4=700;
+
+int bx9=700;
+int by9=700;
+int bx10=700;
+int by10=700;
+int bx11=700;
+int by11=700;
+int bx12=700;
+int by12=700;
+int bx13=700;
+int by13=700;
+int bx14=700;
+int by14=700;
+int bx15=700;
+int by15=700;
+int bx16=700;
+int by16=700;
+
+
 void  createcharacter() {
   background(#FFFFFF);
   stroke(#FFFFFF);
@@ -25,4 +44,9 @@ void  createcharacter() {
   text("Mouth1", 100, 560);
   text("Clothes1", 100, 660);
   text("Sword", 100, 760);
+  
+  
+  
+  
+  
 }
