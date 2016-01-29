@@ -80,4 +80,13 @@ void  createcharacter() {
   rect(bx22, by22, 50, 50);
   rect(bx23, by23, 50, 50);
   rect(bx24, by24, 50, 50);
+  fill(0);
+  triangle(bx9+5, by9+25, bx9+45, by9+5, bx9+45, by9+45);
+  triangle(bx10+5, by10+25, bx10+45, by10+5, bx10+45, by10+45);
+  triangle(bx11+5, by11+25, bx11+45, by11+5, bx11+45, by11+45);
+  triangle(bx12+5, by12+25, bx12+45, by12+5, bx12+45, by12+45);
+  triangle(bx13+5, by13+25, bx13+45, by13+5, bx13+45, by13+45);
+  triangle(bx14+5, by14+25, bx14+45, by14+5, bx14+45, by14+45);
+  triangle(bx15+5, by15+25, bx15+45, by15+5, bx15+45, by15+45);
+  triangle(bx16+5, by16+25, bx16+45, by16+5, bx16+45, by16+45);
 }
