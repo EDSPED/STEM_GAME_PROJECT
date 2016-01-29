@@ -79,7 +79,18 @@ void mousePressed() {
   if (page==3 && mouseX>bx5+2.5 && mouseX<bx5+2.5+10 && mouseY>by5-5 && mouseY<by5-5+10) {
     companionvariation=2;
   }
-
+  if (page==3 && mouseX>bx5+40 && mouseX<bx5+40+10 && mouseY>by5-40 && mouseY<by5-40+10) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+40 && mouseX<bx5+40+10 && mouseY>by5+30 && mouseY<by5+30+10) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+35 && mouseX<bx5+35+5 && mouseY>by5-35 && mouseY<by5-35+5) {
+    companionvariation=2;
+  }
+  if (page==3 && mouseX>bx5+35 && mouseX<bx5+35+5 && mouseY>by5+30 && mouseY<by5+30+5) {
+    companionvariation=2;
+  }
   //RIGHT ARROW
   if (page==3 && mouseX>bx6 && mouseX<bx6+20 && mouseY>by6-30 && mouseY<by6-30+60) {
     companionvariation=3;
@@ -96,7 +107,6 @@ void mousePressed() {
   if (page==3 && mouseX>bx6+37.5 && mouseX<bx6+37.5+10 && mouseY>by6-5 && mouseY<by6-5+10) {
     companionvariation=3;
   }
-
   if (page==3 && mouseX>bx6 && mouseX<bx6+10 && mouseY>by6-40 && mouseY<by6-40+10) {
     companionvariation=3;
   }

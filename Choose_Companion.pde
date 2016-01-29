@@ -31,6 +31,10 @@ void companionchoice(int q) {
   rect(bx5+15, by5-15, 5, 30);
   rect(bx5+12.5, by5-12.5, 2.5, 25);
   rect(bx5+2.5, by5-5, 10, 10);
+  rect(bx5+40, by5-40, 10, 10);
+  rect(bx5+35, by5-35, 5, 5); // NEEDS CLICKING IF STATEMENT
+  rect(bx5+40, by5+30, 10, 10);
+  rect(bx5+35, by5+30, 5, 5); // NEEDS CLICKING IF STATEMENT
 
 
   rect(bx6, by6-30, 20, 60);
