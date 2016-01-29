@@ -1,7 +1,11 @@
+int bx5=100;
+int by5=300;
+int bx6=600;
+int by6=250;
 void companionchoice() {
   background(#FFFFFF);
   fill(0);
   rect(550, 500, 200, 150);
-  triangle(100, 300, 150, 250, 150, 350);
-  triangle(600, 250, 600, 350, 650, 300);
+  triangle(bx5, by5, bx5+50, by5-50, bx5+50, by5+50);
+  triangle(bx6, by6, bx6, by6+100, bx6+50, by6+50);
 }

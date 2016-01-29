@@ -32,7 +32,10 @@ void draw() {
 
 
 void keyPressed() {
-  if (keyPressed) {
+  if (keyPressed) { 
+    if (key == '1') {
+      page=0;
+    }
     if (key == '2') {
       page=1;
     }
@@ -41,6 +44,9 @@ void keyPressed() {
     }
     if (key == '4') {
       page=3;
+    }
+    if (key == '5') {
+      page=4;
     }
   }
 }
