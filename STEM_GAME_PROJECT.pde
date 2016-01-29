@@ -3,6 +3,7 @@ int bx=100; // menu buttons
 int by=500;
 int bx1;
 int by1;
+
 void setup() {
   size(800, 800);
   frameRate(30);
