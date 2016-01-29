@@ -49,8 +49,6 @@ void mousePressed() {
   if (page==1 && mouseX>bx2 && mouseX<bx2+150 && mouseY>by2 && mouseY<by2+100) {
     page=2;
   }
-
-
   if (page==2 && dist(mouseX, mouseY, bx4, by4)<40) {
     page=3;
   }
