@@ -62,7 +62,7 @@ void  createcharacter() {
   text("Mouth1", 90, 560);
   text("Clothes1", 90, 660);
   text("Sword", 100, 760);
-
+/*
   rect(bx9, by9, 50, 50);
   rect(bx10, by10, 50, 50);
   rect(bx11, by11, 50, 50);
@@ -81,6 +81,7 @@ void  createcharacter() {
   rect(bx23, by23, 50, 50);
   rect(bx24, by24, 50, 50);
   fill(0);
+  */
   triangle(bx9+5, by9+25, bx9+45, by9+5, bx9+45, by9+45);
   triangle(bx10+5, by10+25, bx10+45, by10+5, bx10+45, by10+45);
   triangle(bx11+5, by11+25, bx11+45, by11+5, bx11+45, by11+45);
@@ -89,4 +90,13 @@ void  createcharacter() {
   triangle(bx14+5, by14+25, bx14+45, by14+5, bx14+45, by14+45);
   triangle(bx15+5, by15+25, bx15+45, by15+5, bx15+45, by15+45);
   triangle(bx16+5, by16+25, bx16+45, by16+5, bx16+45, by16+45);
+
+  triangle(bx17+45, by17+25, bx17+5, by17+5, bx17+5, by17+45);
+  triangle(bx18+45, by18+25, bx18+5, by18+5, bx18+5, by18+45);
+  triangle(bx19+45, by19+25, bx19+5, by19+5, bx19+5, by19+45);
+  triangle(bx20+45, by20+25, bx20+5, by20+5, bx20+5, by20+45);
+  triangle(bx21+45, by21+25, bx21+5, by21+5, bx21+5, by21+45);
+  triangle(bx22+45, by22+25, bx22+5, by22+5, bx22+5, by22+45);
+  triangle(bx23+45, by23+25, bx23+5, by23+5, bx23+5, by23+45);
+  triangle(bx24+45, by24+25, bx24+5, by24+5, bx24+5, by24+45);
 }
