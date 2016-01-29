@@ -12,6 +12,7 @@ void draw() {
     menu();
   }
   if (page==1) {
+    title();
   }
 
 }
