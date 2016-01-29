@@ -1,4 +1,4 @@
-int bx2=100;//title buttons
+int bx2=300;//title buttons
 int by2=500;
 int bx3=500;
 int by3=500;
