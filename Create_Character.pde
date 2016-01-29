@@ -14,4 +14,10 @@ void  createcharacter() {
   rect(0, 700, 300, 100);
   stroke(0);
   ellipse(bx4, by4, 80, 80);
+  
+  textSize(30);
+  fill(255);
+  text("Hair1",100,60);
+  
+  
 }
