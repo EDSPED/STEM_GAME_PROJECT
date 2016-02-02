@@ -63,6 +63,8 @@ void mousePressed() {
   if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
     page=4;
   }
+  
+  
   //LEFT ARROW
   if (page==3 && mouseX>bx5+30&&mouseX<bx5+30+20 && mouseY>by5-30 && mouseY<by5-30+60) {
     companionvariation=2;
@@ -91,6 +93,9 @@ void mousePressed() {
   if (page==3 && mouseX>bx5+35 && mouseX<bx5+35+5 && mouseY>by5+30 && mouseY<by5+30+5) {
     companionvariation=2;
   }
+  
+  
+  
   //RIGHT ARROW
   if (page==3 && mouseX>bx6 && mouseX<bx6+20 && mouseY>by6-30 && mouseY<by6-30+60) {
     companionvariation=3;
