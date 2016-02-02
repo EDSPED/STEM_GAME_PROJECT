@@ -63,8 +63,8 @@ void mousePressed() {
   if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
     page=4;
   }
-  
-  
+
+
   //LEFT ARROW
   if (page==3 && mouseX>bx5+30&&mouseX<bx5+30+20 && mouseY>by5-30 && mouseY<by5-30+60) {
     companionvariation-=1;
@@ -93,9 +93,9 @@ void mousePressed() {
   if (page==3 && mouseX>bx5+35 && mouseX<bx5+35+5 && mouseY>by5+30 && mouseY<by5+30+5) {
     companionvariation=2;
   }
-  
-  
-  
+
+
+
   //RIGHT ARROW
   if (page==3 && mouseX>bx6 && mouseX<bx6+20 && mouseY>by6-30 && mouseY<by6-30+60) {
     companionvariation+=1;
@@ -123,5 +123,117 @@ void mousePressed() {
   }
   if (companionvariation>3) {
     companionvariation=1;
+  }
+
+
+  if (page==2 && mouseX>bx9 && mouseX<bx9+50 && mouseY>by9 && mouseY<by9+50) {
+    gender *=-1;
+  }  
+  if (hair >= 1 && page==2 && mouseX>bx10 && mouseX<bx10+50 && mouseY>by10 && mouseY<by10+50) {
+    hair -=1;
+  }  
+  if (hair < 1 && page==2 && mouseX>bx10 && mouseX<bx10+50 && mouseY>by10 && mouseY<by10+50) {
+    hair=3;
+  }  
+
+
+  if (skin>=1 &&page==2 && mouseX>bx11 && mouseX<bx11+50 && mouseY>by11 && mouseY<by11+50) {
+    skin -=1;
+  }  
+
+  if (skin<1 && page==2 && mouseX>bx11 && mouseX<bx11+50 && mouseY>by11 && mouseY<by11+50) {
+    skin =3;
+  }  
+
+
+  if (eyes>=1 &&page==2 && mouseX>bx12 && mouseX<bx12+50 && mouseY>by12 && mouseY<by12+50) {
+    eyes-=1;
+  }  
+  if (eyes <1 && page==2 && mouseX>bx12 && mouseX<bx12+50 && mouseY>by12 && mouseY<by12+50) {
+    eyes=3;
+  } 
+
+
+  if (nose>=1 && page==2 && mouseX>bx13 && mouseX<bx13+50 && mouseY>by13 && mouseY<by13+50) {
+    nose-=1;
+  }  
+  if (nose < 1 && page==2 && mouseX>bx13 && mouseX<bx13+50 && mouseY>by13 && mouseY<by13+50) {
+    nose=3;
+  }  
+
+
+  if (mouth>=1 && page==2 && mouseX>bx14 && mouseX<bx14+50 && mouseY>by14 && mouseY<by14+50) {
+    mouth-=1;
+  }  
+  if (mouth<1 && page==2 && mouseX>bx14 && mouseX<bx14+50 && mouseY>by14 && mouseY<by14+50) {
+    mouth=3;
+  }  
+
+
+  if (clothes>=1 && page==2 && mouseX>bx15 && mouseX<bx15+50 && mouseY>by15 && mouseY<by15+50) {
+    clothes-=1;
+  }  
+  if (clothes<1 && page==2 && mouseX>bx15 && mouseX<bx15+50 && mouseY>by15 && mouseY<by15+50) {
+    clothes=3;
+  }  
+
+
+  if (weapon>=1 && page==2 && mouseX>bx16 && mouseX<bx16+50 && mouseY>by16 && mouseY<by16+50) {
+    weapon-=1;
+  }  
+  if (weapon<1 && page==2 && mouseX>bx16 && mouseX<bx16+50 && mouseY>by16 && mouseY<by16+50) {
+    weapon=3;
+  } 
+
+
+
+
+
+
+
+
+  if (page==2 && mouseX>bx17 && mouseX<bx17+50 && mouseY>by17 && mouseY<by17+50) {
+    gender*=-1;
+  }  
+
+  if (hair<=3 && page==2 && mouseX>bx18 && mouseX<bx18+50 && mouseY>by18 && mouseY<by18+50) {
+    hair+=1;
+  }  
+  if (hair>3 && page==2 && mouseX>bx18 && mouseX<bx18+50 && mouseY>by18 && mouseY<by18+50) {
+    hair=1;
+  }  
+
+
+  if (skin<=3 && page==2 && mouseX>bx19 && mouseX<bx19+50 && mouseY>by19 && mouseY<by19+50) {
+    skin+=1;
+  }  
+  if (skin>3 && page==2 && mouseX>bx19 && mouseX<bx19+50 && mouseY>by19 && mouseY<by19+50) {
+    skin=1;
+  }
+
+  if (eyes<=3 && page==2 && mouseX>bx20 && mouseX<bx20+50 && mouseY>by20 && mouseY<by20+50) {
+    eyes+=1;
+  }  
+  if (eyes>3 && page==2 && mouseX>bx20 && mouseX<bx20+50 && mouseY>by20 && mouseY<by20+50) {
+    eyes=1;
+  } 
+
+
+
+  if (nose<=3 && page==2 && mouseX>bx21 && mouseX<bx21+50 && mouseY>by21 && mouseY<by21+50) {
+    nose+=1;
+  }  
+  if (nose>3 && page==2 && mouseX>bx21 && mouseX<bx21+50 && mouseY>by21 && mouseY<by21+50) {
+    nose=1;
+  }  
+
+
+
+  if (mouth<=3 && page==2 && mouseX>bx22 && mouseX<bx22+50 && mouseY>by2 && mouseY<by22+50) {
+    mouth+=1;
+  }
+  if (page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
+  }
+  if (page==2 && mouseX>bx24 && mouseX<bx24+50 && mouseY>by24 && mouseY<by24+50) {
   }
 }
