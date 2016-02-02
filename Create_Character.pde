@@ -37,6 +37,16 @@ int bx24=225;
 int by24=725;
 
 
+int gender=-1; //1 is male, -1 is female
+int hair = 1; //1,2,3,4,etc the number will just change 
+int skin = 1;
+int eyes = 1;
+int nose = 1;
+int mouth = 1;
+int clothes = 1;
+int weapon = 1; // 1 is sword, 2 is axe, 3 is something else
+
+
 void  createcharacter() {
   background(#FFFFFF);
   stroke(#FFFFFF);
@@ -54,34 +64,48 @@ void  createcharacter() {
 
   textSize(30);
   fill(255);
-  text("Male", 100, 60);
-  text("Hair1", 100, 160);
-  text("Skin1", 100, 260);
-  text("Eyes1", 100, 360);
-  text("Nose1", 100, 460);
-  text("Mouth1", 90, 560);
-  text("Clothes1", 90, 660);
-  text("Sword", 100, 760);
-/*
-  rect(bx9, by9, 50, 50);
-  rect(bx10, by10, 50, 50);
-  rect(bx11, by11, 50, 50);
-  rect(bx12, by12, 50, 50);
-  rect(bx13, by13, 50, 50);
-  rect(bx14, by14, 50, 50);
-  rect(bx15, by15, 50, 50);
-  rect(bx16, by16, 50, 50);
 
-  rect(bx17, by17, 50, 50);
-  rect(bx18, by18, 50, 50);
-  rect(bx19, by19, 50, 50);
-  rect(bx20, by20, 50, 50);
-  rect(bx21, by21, 50, 50);
-  rect(bx22, by22, 50, 50);
-  rect(bx23, by23, 50, 50);
-  rect(bx24, by24, 50, 50);
-  fill(0);
-  */
+  if (gender == 1) {
+    text("Male", 100, 60);
+  }
+
+  if (gender == -1) {
+    text("Female", 90, 60);
+  }
+
+
+  text("Hair" + "" + hair, 100, 160);
+  text("Skin" + "" + skin, 100, 260);
+  text("Eyes" + "" + eyes, 100, 360);
+  text("Nose" + "" + nose, 100, 460);
+  text("Mouth" + "" + mouth, 90, 560);
+  text("Clothes" + "" + clothes, 90, 660);
+  
+  
+  text("Sword", 100, 760);
+  
+  
+  
+  /*
+  rect(bx9, by9, 50, 50);
+   rect(bx10, by10, 50, 50);
+   rect(bx11, by11, 50, 50);
+   rect(bx12, by12, 50, 50);
+   rect(bx13, by13, 50, 50);
+   rect(bx14, by14, 50, 50);
+   rect(bx15, by15, 50, 50);
+   rect(bx16, by16, 50, 50);
+   
+   rect(bx17, by17, 50, 50);
+   rect(bx18, by18, 50, 50);
+   rect(bx19, by19, 50, 50);
+   rect(bx20, by20, 50, 50);
+   rect(bx21, by21, 50, 50);
+   rect(bx22, by22, 50, 50);
+   rect(bx23, by23, 50, 50);
+   rect(bx24, by24, 50, 50);
+   fill(0);
+   */
   triangle(bx9+5, by9+25, bx9+45, by9+5, bx9+45, by9+45);
   triangle(bx10+5, by10+25, bx10+45, by10+5, bx10+45, by10+45);
   triangle(bx11+5, by11+25, bx11+45, by11+5, bx11+45, by11+45);
