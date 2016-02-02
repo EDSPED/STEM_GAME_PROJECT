@@ -232,8 +232,22 @@ void mousePressed() {
   if (mouth<=3 && page==2 && mouseX>bx22 && mouseX<bx22+50 && mouseY>by2 && mouseY<by22+50) {
     mouth+=1;
   }
-  if (page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
+  if (mouth>3 && page==2 && mouseX>bx22 && mouseX<bx22+50 && mouseY>by2 && mouseY<by22+50) {
+    mouth=1;
   }
+
+
+
+  if (clothes<=3 && page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
+    clothes+=1;
+  }
+  if (clothes<=3 && page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
+    clothes=1;
+  }
+
+
+
+
   if (page==2 && mouseX>bx24 && mouseX<bx24+50 && mouseY>by24 && mouseY<by24+50) {
   }
 }
