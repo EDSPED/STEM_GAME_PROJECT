@@ -27,6 +27,9 @@ void draw() {
   if (page==4) {
     s1Prelude();
   }
+  if (page==5) {
+    instructions();
+  }
 }
 
 
@@ -47,6 +50,9 @@ void keyPressed() {
     }
     if (key == '5') {
       page=4;
+    }
+    if (key == '6') {
+      page=5;
     }
   }
 }
