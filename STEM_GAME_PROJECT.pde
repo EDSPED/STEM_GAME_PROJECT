@@ -67,25 +67,25 @@ void mousePressed() {
   
   //LEFT ARROW
   if (page==3 && mouseX>bx5+30&&mouseX<bx5+30+20 && mouseY>by5-30 && mouseY<by5-30+60) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+20 && mouseX<bx5+20+10 && mouseY>by5-20 && mouseY<by5-20+40) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+15 && mouseX<bx5+15+5 && mouseY>by5-15 && mouseY<by5-15+30) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+12.5 && mouseX<bx5+12.5+2.5 && mouseY>by5-12.5 && mouseY<by5-12.5+25) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+2.5 && mouseX<bx5+2.5+10 && mouseY>by5-5 && mouseY<by5-5+10) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+40 && mouseX<bx5+40+10 && mouseY>by5-40 && mouseY<by5-40+10) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+40 && mouseX<bx5+40+10 && mouseY>by5+30 && mouseY<by5+30+10) {
-    companionvariation=2;
+    companionvariation-=1;
   }
   if (page==3 && mouseX>bx5+35 && mouseX<bx5+35+5 && mouseY>by5-35 && mouseY<by5-35+5) {
     companionvariation=2;
@@ -98,24 +98,30 @@ void mousePressed() {
   
   //RIGHT ARROW
   if (page==3 && mouseX>bx6 && mouseX<bx6+20 && mouseY>by6-30 && mouseY<by6-30+60) {
-    companionvariation=3;
+    companionvariation+=1;
   }
   if (page==3 && mouseX>bx6+20 && mouseX<bx6+20+10 && mouseY>by6-20 && mouseY<by6-20+40) {
-    companionvariation=3;
+    companionvariation+=1;
   }
   if (page==3 && mouseX>bx6+30 && mouseX<bx6+30+5 && mouseY>by6-15 && mouseY<by6-15+30) {
-    companionvariation=3;
+    companionvariation+=1;
   }
   if (page==3 && mouseX>bx6+35 && mouseX<bx6+35+2.5 && mouseY>by6-12.5 && mouseY<by6-12.5+25) {
-    companionvariation=3;
+    companionvariation+=1;
   }
   if (page==3 && mouseX>bx6+37.5 && mouseX<bx6+37.5+10 && mouseY>by6-5 && mouseY<by6-5+10) {
-    companionvariation=3;
+    companionvariation+=1;
   }
   if (page==3 && mouseX>bx6 && mouseX<bx6+10 && mouseY>by6-40 && mouseY<by6-40+10) {
-    companionvariation=3;
+    companionvariation+=1;
   }
   if (page==3 && mouseX>bx6 && mouseX<bx6+10 && mouseY>by6+30 && mouseY<by6+30+10) {
+    companionvariation+=1;
+  }
+  if (companionvariation<1) {
     companionvariation=3;
+  }
+  if (companionvariation>3) {
+    companionvariation=1;
   }
 }
