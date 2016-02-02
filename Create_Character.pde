@@ -44,7 +44,7 @@ int eyes = 1;
 int nose = 1;
 int mouth = 1;
 int clothes = 1;
-int weapon = 1; // 1 is sword, 2 is axe, 3 is something else
+int weapon = 2; // 1 is sword, 2 is axe, 3 is something else
 
 
 void  createcharacter() {
@@ -74,19 +74,21 @@ void  createcharacter() {
   }
 
 
-  text("Hair" + "" + hair, 100, 160);
-  text("Skin" + "" + skin, 100, 260);
-  text("Eyes" + "" + eyes, 100, 360);
-  text("Nose" + "" + nose, 100, 460);
-  text("Mouth" + "" + mouth, 90, 560);
-  text("Clothes" + "" + clothes, 90, 660);
+  text("Hair" + " " + hair, 100, 160);
+  text("Skin" + " " + skin, 100, 260);
+  text("Eyes" + " " + eyes, 100, 360);
+  text("Nose" + " " + nose, 100, 460);
+  text("Mouth" + " " + mouth, 90, 560);
+  text("Clothes" + " " + clothes, 80, 660);
+
+  if (weapon == 1) {
+    text("Sword", 100, 760);
+  }
+  if (weapon == 2) {
+    text("Axe", 110, 760);
+  }
+
   
-  
-  text("Sword", 100, 760);
-  
-  
-  
-  /*
   rect(bx9, by9, 50, 50);
    rect(bx10, by10, 50, 50);
    rect(bx11, by11, 50, 50);
@@ -105,7 +107,7 @@ void  createcharacter() {
    rect(bx23, by23, 50, 50);
    rect(bx24, by24, 50, 50);
    fill(0);
-   */
+   
   triangle(bx9+5, by9+25, bx9+45, by9+5, bx9+45, by9+45);
   triangle(bx10+5, by10+25, bx10+45, by10+5, bx10+45, by10+45);
   triangle(bx11+5, by11+25, bx11+45, by11+5, bx11+45, by11+45);
