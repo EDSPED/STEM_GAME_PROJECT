@@ -59,17 +59,27 @@ void keyPressed() {
 void mousePressed() {
   if (page==0 && mouseX>bx && mouseX<bx+150 && mouseY>by && mouseY<by+50) {
     page=1;
-  }
-  if (page==1 && mouseX>bx2 && mouseX<bx2+150 && mouseY>by2 && mouseY<by2+100) {
+  } else  if (page==1 && mouseX>bx2 && mouseX<bx2+150 && mouseY>by2 && mouseY<by2+100) {
     page=2;
-  }
-  if (page==2 && dist(mouseX, mouseY, bx4, by4)<40) {
+  } else if (page==2 && dist(mouseX, mouseY, bx4, by4)<40) {
     page=3;
-  }
-  if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
+  } else if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
     page=4;
   }
-
+  /*
+  if (page==0 && mouseX>bx && mouseX<bx+150 && mouseY>by && mouseY<by+50) {
+   page=1;
+   }
+   if (page==1 && mouseX>bx2 && mouseX<bx2+150 && mouseY>by2 && mouseY<by2+100) {
+   page=2;
+   }
+   if (page==2 && dist(mouseX, mouseY, bx4, by4)<40) {
+   page=3;
+   }
+   if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
+   page=4;
+   }
+   */
 
   //LEFT ARROW
   if (page==3 && mouseX>bx5+30&&mouseX<bx5+30+20 && mouseY>by5-30 && mouseY<by5-30+60) {
@@ -250,8 +260,6 @@ void mousePressed() {
   if (clothes<=3 && page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
     clothes=1;
   }
-
-
 
 
   if (page==2 && mouseX>bx24 && mouseX<bx24+50 && mouseY>by24 && mouseY<by24+50) {
