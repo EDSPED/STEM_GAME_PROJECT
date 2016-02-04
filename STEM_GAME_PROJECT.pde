@@ -65,6 +65,8 @@ void mousePressed() {
     page=3;
   } else if (page==3 && mouseX>bx7 && mouseX<bx7+150 && mouseY>by7 && mouseY<by7+100) {
     page=4;
+  } else if (page==5 && dist(mouseX, mouseY, 700, 700)<50) {
+    page=2;
   }
   /*
   if (page==0 && mouseX>bx && mouseX<bx+150 && mouseY>by && mouseY<by+50) {
