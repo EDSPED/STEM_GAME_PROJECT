@@ -274,3 +274,4 @@ void mousePressed() {
     weapon=1;
 
   }
+}
