@@ -44,13 +44,14 @@ int eyes = 1;
 int nose = 1;
 int mouth = 1;
 int clothes = 1;
-int weapon = 2; // 1 is sword, 2 is axe, 3 is something else
+int weapon = 1; // 1 is sword, 2 is axe, 3 is club
 
 
 void  createcharacter() {
   background(#FFFFFF);
   stroke(#FFFFFF);
   fill(0);
+  
   rect(0, 0, 300, 100);
   rect(0, 100, 300, 100);  
   rect(0, 200, 300, 100);  
@@ -59,6 +60,7 @@ void  createcharacter() {
   rect(0, 500, 300, 100);
   rect(0, 600, 300, 100);
   rect(0, 700, 300, 100);
+  
   stroke(0);
   ellipse(bx4, by4, 80, 80);
 
@@ -90,7 +92,7 @@ void  createcharacter() {
   if (weapon == 3) {
     text("Club", 110, 760);
   }
-
+/*
   rect(bx9, by9, 50, 50);
   rect(bx10, by10, 50, 50);
   rect(bx11, by11, 50, 50);
@@ -108,8 +110,9 @@ void  createcharacter() {
   rect(bx22, by22, 50, 50);
   rect(bx23, by23, 50, 50);
   rect(bx24, by24, 50, 50);
+  
   fill(0);
-
+*/
   triangle(bx9+5, by9+25, bx9+45, by9+5, bx9+45, by9+45);
   triangle(bx10+5, by10+25, bx10+45, by10+5, bx10+45, by10+45);
   triangle(bx11+5, by11+25, bx11+45, by11+5, bx11+45, by11+45);
