@@ -14,15 +14,24 @@ void companionchoice(int q) {
   //rect(550, 500, 200, 150);
   triangle(bx5, by5, bx5+50, by5-50, bx5+50, by5+50);
   triangle(bx6, by6-50, bx6, by6+50, bx6+50, by6);
-  rect(200, 600, 150, 100);
+  rect(50, 550, 250, 200);
   if (q==1) {
+    fill(0);
     rect(compx1, compy1, 80, 80);
+    fill(#FFFFFF);
+    text("REKT -", 80, 600);
   }
   if (q==2) {
+    fill(0);
     ellipse(compx1+40, compy1+40, 80, 80);
+    fill(#FFFFFF);
+    text("Ellipse -", 80, 600);
   } 
   if (q==3) {
+    fill(0);
     triangle(compx1, compy1+80, compx1+100, compy1+80, compx1+50, compy1-50+80);
+    fill(#FFFFFF);
+    text("Traingle - ", 80, 600);
   }
   noStroke();
   /*
