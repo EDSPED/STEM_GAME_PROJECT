@@ -60,6 +60,8 @@ void mousePressed() {
   if (page==0 && mouseX>bx && mouseX<bx+150 && mouseY>by && mouseY<by+50) {
     page=1;
   } else  if (page==1 && mouseX>bx2 && mouseX<bx2+150 && mouseY>by2 && mouseY<by2+100) {
+    page=5;
+  } else  if (page==1 && mouseX>bx3 && mouseX<bx3+150 && mouseY>by3 && mouseY<by3+100) {
     page=2;
   } else if (page==2 && dist(mouseX, mouseY, bx4, by4)<40) {
     page=3;
@@ -272,6 +274,5 @@ void mousePressed() {
 
   if (weapon>3 && page==2 && mouseX>bx24 && mouseX<bx24+50 && mouseY>by24 && mouseY<by24+50) {
     weapon=1;
-
   }
 }
