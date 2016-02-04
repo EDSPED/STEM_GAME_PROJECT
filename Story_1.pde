@@ -14,6 +14,6 @@ void title() {
   textSize(25);
   fill(0);
   text("Instructions", bx2+5, by2+60);
-  text("Charcater", bx3+15, by3+40);
+  text("Character", bx3+15, by3+40);
   text("Creation", bx3+25, by3+80);
 }
