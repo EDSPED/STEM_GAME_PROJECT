@@ -8,7 +8,7 @@ int compx1=350;
 int compy1=260;
 int bx8=200;
 int by8=600;
-int companionvariation=1;
+int companionvariation = 1;
 void companionchoice(int q) {
   background(#FFFFFF);
   fill(0);
@@ -47,4 +47,5 @@ void companionchoice(int q) {
    rect(bx6, by6-40, 10, 10);
    rect(bx6, by6+30, 10, 10);
    */
+}
 }
