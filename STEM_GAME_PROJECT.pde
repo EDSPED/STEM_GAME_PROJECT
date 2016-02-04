@@ -160,11 +160,9 @@ void mousePressed() {
   if (skin>=1 &&page==2 && mouseX>bx11 && mouseX<bx11+50 && mouseY>by11 && mouseY<by11+50) {
     skin -=1;
   }  
-
   if (skin<1 && page==2 && mouseX>bx11 && mouseX<bx11+50 && mouseY>by11 && mouseY<by11+50) {
     skin =3;
   }  
-
 
   if (eyes>=1 &&page==2 && mouseX>bx12 && mouseX<bx12+50 && mouseY>by12 && mouseY<by12+50) {
     eyes-=1;
@@ -173,14 +171,12 @@ void mousePressed() {
     eyes=3;
   } 
 
-
   if (nose>=1 && page==2 && mouseX>bx13 && mouseX<bx13+50 && mouseY>by13 && mouseY<by13+50) {
     nose-=1;
   }  
   if (nose < 1 && page==2 && mouseX>bx13 && mouseX<bx13+50 && mouseY>by13 && mouseY<by13+50) {
     nose=3;
   }  
-
 
   if (mouth>=1 && page==2 && mouseX>bx14 && mouseX<bx14+50 && mouseY>by14 && mouseY<by14+50) {
     mouth-=1;
@@ -189,14 +185,12 @@ void mousePressed() {
     mouth=3;
   }  
 
-
   if (clothes>=1 && page==2 && mouseX>bx15 && mouseX<bx15+50 && mouseY>by15 && mouseY<by15+50) {
     clothes-=1;
   }  
   if (clothes<1 && page==2 && mouseX>bx15 && mouseX<bx15+50 && mouseY>by15 && mouseY<by15+50) {
     clothes=3;
   }  
-
 
   if (weapon>=1 && page==2 && mouseX>bx16 && mouseX<bx16+50 && mouseY>by16 && mouseY<by16+50) {
     weapon-=1;
@@ -205,12 +199,7 @@ void mousePressed() {
     weapon=3;
   } 
 
-
-
-
-
-
-
+// RIGHT SIDE OF CHARACTER CREATION
 
   if (page==2 && mouseX>bx17 && mouseX<bx17+50 && mouseY>by17 && mouseY<by17+50) {
     gender*=-1;
@@ -222,7 +211,6 @@ void mousePressed() {
   if (hair>3 && page==2 && mouseX>bx18 && mouseX<bx18+50 && mouseY>by18 && mouseY<by18+50) {
     hair=1;
   }  
-
 
   if (skin<=3 && page==2 && mouseX>bx19 && mouseX<bx19+50 && mouseY>by19 && mouseY<by19+50) {
     skin+=1;
@@ -239,15 +227,12 @@ void mousePressed() {
   } 
 
 
-
   if (nose<=3 && page==2 && mouseX>bx21 && mouseX<bx21+50 && mouseY>by21 && mouseY<by21+50) {
     nose+=1;
   }  
   if (nose>3 && page==2 && mouseX>bx21 && mouseX<bx21+50 && mouseY>by21 && mouseY<by21+50) {
     nose=1;
   }  
-
-
 
   if (mouth<=3 && page==2 && mouseX>bx22 && mouseX<bx22+50 && mouseY>by2 && mouseY<by22+50) {
     mouth+=1;
@@ -256,16 +241,12 @@ void mousePressed() {
     mouth=1;
   }
 
-
-
   if (clothes<=3 && page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
     clothes+=1;
   }
   if (clothes>3 && page==2 && mouseX>bx23 && mouseX<bx23+50 && mouseY>by23 && mouseY<by23+50) {
     clothes=1;
   }
-
-
 
 
   if (weapon<=3 && page==2 && mouseX>bx24 && mouseX<bx24+50 && mouseY>by24 && mouseY<by24+50) {
