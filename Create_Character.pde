@@ -87,27 +87,29 @@ void  createcharacter() {
   if (weapon == 2) {
     text("Axe", 110, 760);
   }
+  if (weapon == 3) {
+    text("Club", 110, 760);
+  }
 
-  
   rect(bx9, by9, 50, 50);
-   rect(bx10, by10, 50, 50);
-   rect(bx11, by11, 50, 50);
-   rect(bx12, by12, 50, 50);
-   rect(bx13, by13, 50, 50);
-   rect(bx14, by14, 50, 50);
-   rect(bx15, by15, 50, 50);
-   rect(bx16, by16, 50, 50);
-   
-   rect(bx17, by17, 50, 50);
-   rect(bx18, by18, 50, 50);
-   rect(bx19, by19, 50, 50);
-   rect(bx20, by20, 50, 50);
-   rect(bx21, by21, 50, 50);
-   rect(bx22, by22, 50, 50);
-   rect(bx23, by23, 50, 50);
-   rect(bx24, by24, 50, 50);
-   fill(0);
-   
+  rect(bx10, by10, 50, 50);
+  rect(bx11, by11, 50, 50);
+  rect(bx12, by12, 50, 50);
+  rect(bx13, by13, 50, 50);
+  rect(bx14, by14, 50, 50);
+  rect(bx15, by15, 50, 50);
+  rect(bx16, by16, 50, 50);
+
+  rect(bx17, by17, 50, 50);
+  rect(bx18, by18, 50, 50);
+  rect(bx19, by19, 50, 50);
+  rect(bx20, by20, 50, 50);
+  rect(bx21, by21, 50, 50);
+  rect(bx22, by22, 50, 50);
+  rect(bx23, by23, 50, 50);
+  rect(bx24, by24, 50, 50);
+  fill(0);
+
   triangle(bx9+5, by9+25, bx9+45, by9+5, bx9+45, by9+45);
   triangle(bx10+5, by10+25, bx10+45, by10+5, bx10+45, by10+45);
   triangle(bx11+5, by11+25, bx11+45, by11+5, bx11+45, by11+45);
